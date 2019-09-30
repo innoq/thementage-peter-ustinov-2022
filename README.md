@@ -1,4 +1,4 @@
-# GirlsDay 2019 Monheim Handbuch
+# Thementage 2019 Monheim Handbuch
 
 Dieses Repo beinhaltet das Hanbuch für die Thementage 2019 in Monheim. An sich ist das Repo eine Kopie des GirlsDay_2019 Repositories, welches zur veröffentlichung über Github Pages angelegt und angepasst wurde
 

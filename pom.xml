@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>INNOQ</groupId>
-  <artifactId>GirlsDayMonheim</artifactId>
+  <artifactId>Thementage_PUG</artifactId>
   <version>1.0-SNAPSHOT</version>
 
   <parent>
@@ -14,9 +14,9 @@
     <version>2.1.3.RELEASE</version>
   </parent>
 
-  <name>GirlsDayMonheim</name>
+  <name>Thementage Peter Ustinov Gesamtschule</name>
   <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <url>https://innoq.github.io/Thementage_Peter_Ustinov/</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
