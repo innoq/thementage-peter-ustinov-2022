@@ -1,0 +1,27 @@
+<header th:fragment="header">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="/"><img id="brand-img" src="img/innoq-logo--whitered-9684828805a4a94e467950840bec3884.svg" alt="INNOQ Logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler01" aria-controls="navbarToggler01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler01">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li th:classappend="${#request.getRequestURI() == '/' ? 'active':''}" class="nav-item">
+                    <a class="nav-link" href="/">Thementage@INNOQ</a>
+                </li>
+                <li th:classappend="${#request.getRequestURI() == '/raspberryPi' ? 'active':''}" class="nav-item">
+                    <a class="nav-link" href="/raspberryPi">Raspberry Pi</a>
+                </li>
+                <li th:classappend="${#request.getRequestURI() == '/handbook' ? 'active':''}" class="nav-item">
+                    <a class="nav-link" href="/handbook">Handbuch</a>
+                </li>
+                <li th:classappend="${#request.getRequestURI() == '/mentor' ? 'active':''}" class="nav-item">
+                    <a class="nav-link" href="/mentor">Mentoren & Mentorinnen</a>
+                </li>
+                <li th:classappend="${#request.getRequestURI() == '/useful' ? 'active':''}" class="nav-item">
+                    <a class="nav-link" href="/useful">Hilfreiches</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>

@@ -1,0 +1,59 @@
+body {
+  font-family: FFMarkWebProBold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.sidebar {
+  z-index: 500;
+}
+
+.navbar-dark {
+  background: #24244c;
+}
+
+h3 {
+  padding-top: 70px;
+  color: #55CDAF;
+}
+
+h4 {
+  padding-top: 25px;
+  color: #FC6E86;
+}
+
+h5 {
+  padding-top: 15px;
+  color: #5B5B79;
+}
+
+.left-sidebar {
+  background: #68DDC3;
+}
+
+.bd-content {
+  padding-left: 35px;
+}
+
+.row {
+  width: 100%;
+  margin: 0;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.hellow-world-page {
+  margin-left: 25%;
+}
+
+.hello-world-page-header {
+  height: 30%;
+}
+
+p img {
+  padding-bottom: 70px;
+}
+
+img[src*="#thumbnail"] {
+  width:5%
+}
