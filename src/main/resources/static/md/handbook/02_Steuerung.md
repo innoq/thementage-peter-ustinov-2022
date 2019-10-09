@@ -131,7 +131,7 @@ Mit deinem Wissen über Bedingungen, Operatoren und Ereignisse kannst du nun ver
 
 ##### Klone ![clone.png](img/clone.png#thumbnail)
 
-Oft leiht man sich Begriffe und Ideen aus anderen Wissenschaften, um Mechanismen oder Programmierkonzepte anschaulicher zu bennen. Hier bedient man sich der Idee des "Klonens" aus der Biologie. Sicher hast du schon einmal davon gehört: Ein Klon ist eine Kopie eines Lebewesens. Dieses Lebewesen ist aus exakt den gleichen Informationen wie das Original aufgebaut.
+Oft leiht man sich Begriffe und Ideen aus anderen Wissenschaften, um Mechanismen oder Programmierkonzepte anschaulicher zu benennen. Hier bedient man sich der Idee des "Klonens" aus der Biologie. Sicher hast du schon einmal davon gehört: Ein Klon ist eine Kopie eines Lebewesens. Dieses Lebewesen ist aus exakt den gleichen Informationen wie das Original aufgebaut.
 
 Diese Idee lässt sich übertragen: In Scratch kannst du mehrere Lebewesen vom gleichen "Bauplan" zum Leben erwecken und sie individuell steuern. Der Bauplan könnte z.B. eine Grafik oder ein Lebewesen sein, das bereits existiert.  
 Der Vorteil liegt darin, dass dein Computer nur einmal den Bauplan "laden" muss. Man nennt einen grafischen Bauplan auch "Spritesheet". "Sprite" ist einfach die englische Bezeichnung für eine Figur; ein "Spritesheet" ist also einfach eine Blatt, auf dem die Beschreibung für die Figur steht.
