@@ -163,7 +163,7 @@ Man spricht auch davon, dass das Programm &quot;pausiert&quot;. Wenn ein Program
 Anstelle einer Wartezeit bestimmst du nun also eine <em><strong>&quot;Wartebedingung&quot;</strong></em>.</p>
 <p>Mit deinem Wissen über Bedingungen, Operatoren und Ereignisse kannst du nun verschiedene Wartebedingungen ausprobieren. Falls es dir noch schwer fällt, versuche, dein Problem als <a href="http://localhost:8080/handbook.html#9">Flussdiagramm</a> auf Papier aufzumalen oder frag die Mentoren und Mentorinnen .</p>
 <h5>Klone <img src="img/clone.png#thumbnail" alt="clone.png" /></h5>
-<p>Oft leiht man sich Begriffe und Ideen aus anderen Wissenschaften, um Mechanismen oder Programmierkonzepte anschaulicher zu bennen. Hier bedient man sich der Idee des &quot;Klonens&quot; aus der Biologie. Sicher hast du schon einmal davon gehört: Ein Klon ist eine Kopie eines Lebewesens. Dieses Lebewesen ist aus exakt den gleichen Informationen wie das Original aufgebaut.</p>
+<p>Oft leiht man sich Begriffe und Ideen aus anderen Wissenschaften, um Mechanismen oder Programmierkonzepte anschaulicher zu benennen. Hier bedient man sich der Idee des &quot;Klonens&quot; aus der Biologie. Sicher hast du schon einmal davon gehört: Ein Klon ist eine Kopie eines Lebewesens. Dieses Lebewesen ist aus exakt den gleichen Informationen wie das Original aufgebaut.</p>
 <p>Diese Idee lässt sich übertragen: In Scratch kannst du mehrere Lebewesen vom gleichen &quot;Bauplan&quot; zum Leben erwecken und sie individuell steuern. Der Bauplan könnte z.B. eine Grafik oder ein Lebewesen sein, das bereits existiert.<br />
 Der Vorteil liegt darin, dass dein Computer nur einmal den Bauplan &quot;laden&quot; muss. Man nennt einen grafischen Bauplan auch &quot;Spritesheet&quot;. &quot;Sprite&quot; ist einfach die englische Bezeichnung für eine Figur; ein &quot;Spritesheet&quot; ist also einfach eine Blatt, auf dem die Beschreibung für die Figur steht.</p>
 <p>Um einen Klon zu erzeugen wählst du den Baustein <em>&quot;erzeuge Klon von&quot;</em> und gibst als Zusatzinformation deinen Bauplan mit. Mit dem Baustein <em>&quot;wenn ich als Klon entstehe&quot;</em> kannst du der Kopie direkt sagen, wie sie sich verhalten soll, sobald sie auf dem Bildschirm erscheint. So weiß ein Klon direkt, was es zu tun hat. Übrigens wird nicht nur das grafische Aussehen eines Originals kopiert, sondern auch seine Fähigkeiten, wie z.B. laufen oder springen. Diese Fähigkeiten nennt man auch &quot;Scripte&quot;.</p>
@@ -202,51 +202,55 @@ Der Vorteil liegt darin, dass dein Computer nur einmal den Bauplan &quot;laden&q
 <h4>Übungsaufgaben</h4>
 <h5>1. Hello World</h5>
 <ul>
-<li>Wenn auf die Fahne geklickt wird, soll die Figur &quot;Hello World!&quot; sagen.</li>
+<li>Wenn auf die Fahne geklickt wird, soll die Katze (du kannst in allen Aufgaben auch eine andere Figur auswählen) &quot;Hello World!&quot; sagen.</li>
 </ul>
 <h5>2. Größenveränderungen</h5>
 <ul>
-<li>Ändere die Größe der Figur um eine &quot;Zufallszahl&quot; zwischen &quot;-50&quot; und &quot;50&quot;, wenn diese angeklickt wird.</li>
+<li>Ändere die Größe der Katze um eine &quot;Zufallszahl&quot; zwischen &quot;-50&quot; und &quot;50&quot;, wenn diese angeklickt wird.</li>
 </ul>
 <h5>3. Erste Schritte</h5>
 <ul>
-<li>Lasse die Figur in die Richtung laufen, deren Pfeil gedrückt wird. Bei dem Pfeil nach unten läuft sie so beispielweise um -12 Schritte in y-Richtung.</li>
+<li>Lasse die Katze in die Richtung laufen, deren Pfeil gedrückt wird. Bei dem Pfeil nach unten läuft sie so beispielweise um -12 Schritte in y-Richtung.</li>
 </ul>
 <h5>4. Springen</h5>
 <ul>
-<li>Wenn auf die Fahne geklickt wird, soll die Figur immer dann, wenn die Leertaste gedrückt wird, ihren y-Wert um &quot;10&quot; ändern. Wird die Leertaste nicht gedrückt, soll sie den y-Wert um &quot;-5&quot; verändern.</li>
+<li>Wenn auf die Fahne geklickt wird, soll die Katze jedes Mal, wenn die Leertaste gedrückt wird, ihren y-Wert um &quot;10&quot; ändern. Andernfalls soll sie den y-Wert um &quot;-5&quot; verändern.</li>
 </ul>
 <h5>5. Springen 2.0</h5>
 <ul>
-<li>Verändere die Aufgabe &quot;Springen&quot; so, dass der y-Wert nicht kleiner als 0 sein kann. Der y-Wert soll also, wenn er 0 oder kleiner ist, nicht mehr um -5 verringert werden.</li>
+<li>Verändere die Aufgabe &quot;Springen&quot; so, dass der y-Wert, sobald er kleiner oder gleich 0 ist, nicht mehr um -5 verringert werden kann.</li>
 </ul>
-<h5>6. Fragen</h5>
+<h5>6a. Fragen</h5>
 <ul>
-<li>Wenn die Fahne angeklickt wird, soll eine Variable &quot;Richtige Antwort&quot; auf &quot;INNOQ&quot; gesetzt werden. Dannach soll die Frage (mit warten) &quot;Bei welcher Firma bist du heute?&quot; so lange &quot;wiederholt&quot; werden bis die eingegebene &quot;Antwort&quot; der &quot;richtigen Antwort&quot; entspricht.</li>
+<li>Setze eine Variable mit Namen Begrüßung auf deinen Namen. Lasse die Katze den Inhalt der Variablen &quot;Begrüßung&quot; sagen.</li>
+</ul>
+<h5>6b. Fragen</h5>
+<ul>
+<li>Wenn die Fahne angeklickt wird, soll eine Variable &quot;Richtige Antwort&quot; auf &quot;INNOQ&quot; gesetzt werden. Dannach soll die Frage (mit Warten) &quot;Bei welcher Firma bist du heute?&quot; so lange &quot;wiederholt&quot; werden, bis die eingegebene &quot;Antwort&quot; der &quot;richtigen Antwort&quot; entspricht.</li>
 </ul>
 <h5>7. Gegen die Wand</h5>
 <ul>
-<li>Lasse deine Figur beim Klicken der Pfeiltaste &quot;nach rechts&quot; nach rechts laufen. Wenn ihr x-Wert dabei größer als &quot;150&quot; ist, sendest du eine Nachricht &quot;Wand!&quot; an alle. Wird die Nachricht &quot;Wand!&quot; empfangen setzt du den x-Wert auf &quot;-150&quot;. &quot;-150&quot; soll ebenfalls der Startwert beim Drücken der grünen Fahne sein.</li>
+<li>Lasse die Katze beim Drücken der Pfeiltaste &quot;nach rechts&quot; nach rechts laufen. Wenn ihr x-Wert dabei größer als &quot;150&quot; ist, sendest du eine Nachricht &quot;Wand!&quot; an alle (man kann mehrere Programmteile über Nachrichten miteinander kommunizieren lassen; hier werden von einem Hauptprogramm alle seine Unterprogramme benachrichtigt). Wird die Nachricht &quot;Wand!&quot; empfangen (denn jedes Unterprogramm, also jede Figur, empfängt nun die gesendete Nachricht), setzt du den x-Wert auf &quot;-150&quot;. &quot;-150&quot; soll ebenfalls der Startwert beim Drücken der grünen Fahne sein.</li>
 </ul>
 <h5>8. Ton ab</h5>
 <ul>
-<li>Verändere die Aufgabe &quot;Gegen die Wand&quot; so, dass jedes mal wenn die Nachricht &quot;Wand!&quot; emfangen wird, ein Klang abgespielt wird. Bei jeder &quot;Wand!&quot;-Nachricht soll zudem der Effekt &quot;Höhe&quot; um &quot;10&quot; erhöht werden.</li>
+<li>Verändere die Aufgabe &quot;Gegen die Wand&quot; so, dass jedes Mal, wenn die Nachricht &quot;Wand!&quot; emfangen wird, ein Klang abgespielt wird. Bei jeder &quot;Wand!&quot;-Nachricht soll zudem der Effekt &quot;Höhe&quot; um &quot;10&quot; erhöht werden.</li>
 </ul>
 <h5>9. Auf die Figur, fertig, los!</h5>
 <ul>
-<li>Wenn die Fahne geklickt wird, soll &quot;20&quot; mal folgendes passieren: Die Figur soll &quot;1&quot; Sekunde zu &quot;Zufallsposition&quot; gleiten. Falls ihre x-Position dabei größer als 150 oder kleiner als -150 und ihre y-Position größer als 100 oder kleiner als -100 ist, soll ein Klon von &quot;mir selbst&quot;, also der Figur, erstellt werden. Des Weiteren soll der Effekt &quot;Farbe&quot; um &quot;15&quot; geändert werden.</li>
-<li>Wenn ein Klon entsteht, soll genau dasselbe passieren. Nur soll dies nicht &quot;20&quot; mal wiederholt werden.</li>
+<li>Wenn die Fahne geklickt wird, soll &quot;20&quot; mal Folgendes passieren: Die Katze soll &quot;1&quot; Sekunde zu einer zufälligen Position (es gibt schon eine Variable dafür) gleiten. Falls ihre x-Position dabei größer als 150 oder kleiner als -150 und ihre y-Position größer als 100 oder kleiner als -100 ist, soll ein Klon von &quot;mir selbst&quot;, also der Katze, erstellt werden. Des Weiteren soll der Effekt &quot;Farbe&quot; um &quot;15&quot; geändert werden.</li>
+<li>Wenn ein Klon entsteht, soll genau dasselbe passieren. Nur soll dies nicht &quot;20&quot; mal wiederholt werden. Nutze die bereits vorhandene Variable für die zufällige Position.</li>
 </ul>
 <h5>10. Malen</h5>
 <ul>
-<li>Füge den Blockkategorien die Erweiterung &quot;Malstift&quot; hinzu.</li>
+<li>Füge den Blockkategorien (zu finden bei den Skripten bzw. in der linken Leiste) die Erweiterung &quot;Malstift&quot; hinzu.</li>
 <li>Wenn auf die Fahne geklickt wird, sollen alle gemalten Linien gelöscht werden.</li>
-<li>Wenn auf die Fahne geklickt wird, soll auf fortlaufend ein &quot;Abdruck&quot; deiner Figur erstellt werden. Dieser soll sich immer zu dem Mauszeiger drehen und x Schritte laufen. Am Rand soll die Figur abprallen.</li>
-<li>Lasse die Figur sich immer nach rechts um eine &quot;Zufallszahl&quot; drehen und ändere die Farbe der Figur währenddessen ebenfalls um z.</li>
+<li>Wenn auf die Fahne geklickt wird, soll fortlaufend ein &quot;Abdruck&quot; der Katze erstellt werden. Diese soll sich immer zu dem Mauszeiger drehen und x Schritte laufen. Am Rand soll die Katze abprallen.</li>
+<li>Lasse die Katze sich immer nach rechts um eine &quot;Zufallszahl&quot; z drehen und ändere die Farbe der Katze währenddessen ebenfalls um z.</li>
 </ul>
 <h5>11. Fangen</h5>
 <ul>
-<li>Verändere Aufgabe &quot;Erste Schritte&quot; so, dass du zwei Figuren in der Szene hast. Die neue Figur soll, wenn die grüne Fahne angeklickt wird, wiederholt in &quot;3&quot; Sek. zu &quot;Zufallsposition&quot; gleiten. Wird dabei die Figur aus &quot;Erste Schritte&quot; berührt, soll eine Nachticht &quot;Gefangen&quot; an alle gesendet werden. Wird die Nachricht &quot;Gefahr&quot; empfangen, sollen andere Skripte der Figur (der neuen) stoppen und die Figur (die neue) soll für &quot;2&quot; Sekunden &quot;Du hast mich&quot; sagen.</li>
+<li>Verändere Aufgabe &quot;Erste Schritte&quot; so, dass du zwei Figuren in der Szene hast, z.B. zusätzlich zu der Katze noch eine Maus. Die Katze soll, wenn die grüne Fahne angeklickt wird, wiederholt in &quot;3&quot; Sek. zu &quot;Zufallsposition&quot; gleiten. Wird dabei die Maus berührt, soll eine Nachricht &quot;Gefangen&quot; an alle gesendet werden. Wird die Nachricht &quot;Gefangen&quot; empfangen, soll der Befehl abgegeben werden alle anderen Skripte der Maus zu stoppen und sie soll für &quot;2&quot; Sekunden &quot;Du hast mich&quot; sagen.</li>
 </ul>
 <h3><img src="img/makeymakey_logo.png#thumbnail" alt="makeymakey_logo" /> Der Makey Makey</h3>
 <h4>Einleitung - Was ist das?</h4>
