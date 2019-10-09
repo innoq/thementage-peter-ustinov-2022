@@ -10,10 +10,8 @@ Wir freuen uns sehr, dass Du dabei bist! Heute wollen wir Dir Softwareentwicklun
 
 `10:15 Uhr - 10:30 Uhr` Raspberry Pi zusammenbauen
 
-`10:30 Uhr - 11:00 Uhr` Wir zeigen euch grundlegend, wie Scratch funktioniert, und ihr könnt es ausprobieren
-
-`11:00 Uhr - 12:00 Uhr` Wir schließen den Makey Makey an und lassen mit ihm eine Figur nach links und rechts laufen
+`10:30 Uhr - 12:00 Uhr` Wir zeigen euch grundlegend, wie Scratch funktioniert, und ihr könnt es ausprobieren
 
 `12:00 Uhr - 13:00 Uhr` **Mittagessen:** Wir bestellen [Pizza](https://losteria.net/de/menue/menu-della-casa/) und ihr seid herzlich eingeladen.
 
-`13:00 Uhr - 15:00 Uhr` Aufgabe fortsetzen
+`13:00 Uhr - 15:00 Uhr` Makey Makey
