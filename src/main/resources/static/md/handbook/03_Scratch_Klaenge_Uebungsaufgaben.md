@@ -68,8 +68,8 @@ Auf diesen Seiten findet ihr kostenlose Musik. Bitte vergesst nicht die Lizenzen
 ​
 ##### 10\. Auf die Figur, fertig, los!
 ​
-*   Wenn die Fahne geklickt wird, soll "20" mal Folgendes passieren: Die Katze soll "1" Sekunde zu einer zufälligen Position gleiten (dafür gibt es einen extra Code-Block). Falls ihre x-Position dabei größer als 150 oder kleiner als -150 bzw. ihre y-Position größer als 100 oder kleiner als -100 ist, soll ein Klon von "mir selbst", also der Katze, erstellt werden. Des Weiteren soll der Effekt "Farbe" um "15" geändert werden.
-*   Wenn ein Klon entsteht (auch dafür gibt es einen Code-Block), soll genau dasselbe passieren. Nur soll dies nicht "20" mal wiederholt werden.
+*   Wenn die Fahne geklickt wird, soll "20" mal Folgendes passieren: Die Katze soll "1" Sekunde zu einer "Zufallsposition" gleiten (dafür gibt es eine extra Variable). Falls ihre x-Position dabei größer als 150 oder kleiner als -150 bzw. ihre y-Position größer als 100 oder kleiner als -100 ist, soll ein Klon von "mir selbst", also der Katze, erstellt werden. Des Weiteren soll der Effekt "Farbe" um "15" geändert werden.
+*   Wenn ein Klon entsteht, soll genau dasselbe passieren. Nur soll dies nicht "20" mal wiederholt werden.
 ​
 ##### 11\. Malen
 ​
