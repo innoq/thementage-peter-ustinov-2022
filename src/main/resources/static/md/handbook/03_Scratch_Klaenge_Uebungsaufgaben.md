@@ -56,7 +56,7 @@ Auf diesen Seiten findet ihr kostenlose Musik. Bitte vergesst nicht die Lizenzen
 ​
 ##### 7\. Fragen
 ​
-*   Wenn die Fahne angeklickt wird, soll eine Variable "Richtige Antwort" auf "INNOQ" gesetzt werden. Dannach soll die Frage "Bei welcher Firma bist du heute?" gestellt werden und auf die Antwort gewartet. Wenn die eingegebene "Antwort" nicht der "richtigen Antwort" entspricht, soll die Frage "wiederholt" werden.
+*   Wenn die Fahne angeklickt wird, soll eine Variable "Richtige Antwort" auf "INNOQ" gesetzt werden. Danach soll die Frage "Bei welcher Firma bist du heute?" gestellt und auf die Antwort gewartet werden. Wenn die eingegebene "Antwort" nicht der "richtigen Antwort" entspricht, soll die Frage "wiederholt" werden.
 ​
 ##### 8\. Gegen die Wand
 ​
