@@ -25,41 +25,38 @@ public class AppController {
         return "main";
     }
 
-
-    @GetMapping("/handbook")
-    public String handbook(Model model) {
+    @GetMapping("/ablauf")
+    public String ablauf(Model model) {
         makeActive(model);
-        model.addAttribute("page", "handbook");
-        readFilesToModelMap(model, "handbook");
+        model.addAttribute("page", "ablauf");
+        readFilesToModelMap(model, "ablauf");
         return "main";
     }
 
-    @GetMapping("/mentor")
+    @GetMapping("/fachbegriffe")
+    public String fachbegriffe(Model model) {
+        makeActive(model);
+        model.addAttribute("page", "fachbegriffe");
+        readFilesToModelMap(model, "fachbegriffe");
+        return "main";
+    }
+
+    @GetMapping("/mentoren")
     public String mentor(Model model) {
         makeActive(model);
-        model.addAttribute("page", "mentor");
-        readFilesToModelMap(model, "mentor");
+        model.addAttribute("page", "mentoren");
+        readFilesToModelMap(model, "mentoren");
         return "main";
     }
 
-    @GetMapping("/useful")
-    public String useful(Model model) {
+    @GetMapping("/links")
+    public String links(Model model) {
         makeActive(model);
-        model.addAttribute("page", "useful");
-        readFilesToModelMap(model, "useful");
+        model.addAttribute("page", "links");
+        readFilesToModelMap(model, "links");
 
         return "main";
     }
-
-    @GetMapping("/raspberryPi")
-    public String raspberryPi(Model model) {
-        makeActive(model);
-        model.addAttribute("page", "raspberryPi");
-        readFilesToModelMap(model, "raspberryPi");
-
-        return "main";
-    }
-
 
     private void makeActive(Model model) {
         model.addAttribute("classActiveSettings","active");

@@ -1,11 +1,5 @@
 ### Zum Weitermachen
 
-#### Rund um Scratch
-
-*   [Scratch herunterladen](https://scratch.mit.edu/download)
-*   [Scratch-Wiki](https://scratch-dach.info/wiki/Hauptseite)
-*   [Kultspiele in Scratch](https://scratch-dach.info/wiki/Kultspiele_in_Scratch): Wenn ihr ein Spiel ausgewählt habt und dort rechts oben auf _"See inside"_ klickt, seht ihr den Programmcode in Scratch. Dieser ist allerdings meistens auf englisch.
-
 #### Veranstaltungen
 
 Es gibt verschiedene Veranstaltungen, bei denen Du noch tiefer in die Welt der Programmierung einsteigen kannst.
@@ -14,7 +8,6 @@ Mehr Infos findest Du hier:
 
 *   [Jugend hackt](http://jugendhackt.de/)
 *   [Start Coding](https://start-coding.de/lernen)
-*   [Coder Dojo Köln](https://coderdojo.cologne)
 *   [Coder Dojo](https://coderdojo.com/about/)
 *   [Railsgirls](http://railsgirls.com)
 *   [Devoxx4kids](http://www.devoxx4kids.org/deutschland/)
