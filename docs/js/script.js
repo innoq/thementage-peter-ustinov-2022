@@ -5,7 +5,7 @@ $(document).ready(function documentReady() {
     addIdAndClassToH3H4H5();
     addImgFluid();
 
-    const routes = [ "ablauf", "fachbegriffe", "mentor", "links" ];
+    const routes = [ "ablauf", "fachbegriffe", "mentoren", "links" ];
 
     if (routes.some(route => window.location.href.indexOf(route) > -1)) {
         tocInit();
