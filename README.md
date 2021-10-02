@@ -6,7 +6,7 @@ Dieses Repo beinhaltet das Hanbuch für die Thementage 2021 in Monheim. An sich 
 ## Anleitung
 
 ### Texte
-Zum Hinzufügen von Anleitungen fügt man die Texte als Markdown (.md) in den entsprechenden Ordner unter `./src/main/resources/static/md/` ein.
+Zum Hinzufügen von Anleitungen fügt man die Texte als Markdown (.md) in den entsprechenden Ordner unter [`./src/main/resources/static/md/`](./src/main/resources/static/md/) ein.
 
 ### Bilder
 Bilder können in `./src/main/resources/static/img/` hinzugefügt werden.
