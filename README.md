@@ -17,7 +17,7 @@ Bilder können in [`./src/main/resources/static/img/`](./src/main/resources/stat
 2. Lege einen neuen Unterordner für die Texte an: `./src/main/resources/static/md/<new route>/`.
 3. Verlinke die Seite im header template ([`./src/main/resources/templates/fragments/header.html`](./src/main/resources/templates/fragments/header.html)).
    Die route muss dort mit den strings in der Controller-Methode übereinstimmen.
-4. Füge die route in [`./src/main/resources/static/js/script.js:8`](./src/main/resources/static/js/script.js:8) zu dem `routes` array hinzu, damit
+4. Füge die route in [`./src/main/resources/static/js/script.js`](./src/main/resources/static/js/script.js) zu dem `routes` array hinzu (Zeile 8), damit
    das Inhaltsverzeichnis im Client automatisch generiert wird.
 
 ### Rendern
