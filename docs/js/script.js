@@ -5,7 +5,7 @@ $(document).ready(function documentReady() {
     addIdAndClassToH3H4H5();
     addImgFluid();
 
-    const routes = [ "fachbegriffe", "handbook", "mentor", "raspberryPi", "useful" ];
+    const routes = [ "ablauf", "fachbegriffe", "mentor", "links" ];
 
     if (routes.some(route => window.location.href.indexOf(route) > -1)) {
         tocInit();
@@ -40,19 +40,19 @@ $(window).resize(function() {
 
 
 //functions
-let addPaddingBottom = function() {
+const addPaddingBottom = function() {
     let windowHeight = $(window).height();
     $('.js-toc-content').css('padding-bottom', windowHeight * .80);
 };
 
-let addIdAndClassToH3H4H5 = function() {
+const addIdAndClassToH3H4H5 = function() {
     $("h3, h4, h5").each(function(index) {
         $(this).attr("class", "anchor_tags");
         $(this).attr('id', index);
     });
 };
 
-let addImgFluid = function() {
+const addImgFluid = function() {
     $("img").each(function() {
         if($(this).id !== "brand-img") {
             $(this).addClass("img-fluid")
@@ -61,7 +61,7 @@ let addImgFluid = function() {
 };
 
 
-let resizeSidebar = function() {
+const resizeSidebar = function() {
     if ($('header').width() >= 768) {
         let windowHeight = $(window).height();
         $('.sidebar').css('height', windowHeight);
@@ -70,7 +70,7 @@ let resizeSidebar = function() {
     }
 };
 
-let tocInit = function() {
+const tocInit = function() {
     tocbot.init({
         // Where to render the table of contents.
         tocSelector: '.js-toc',
