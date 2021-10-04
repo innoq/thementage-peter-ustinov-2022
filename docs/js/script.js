@@ -1,11 +1,15 @@
 $(document).ready(function documentReady() {
 
-    resizeSidebar();
-
-    addIdAndClassToH3H4H5();
+    // resizeSidebar();
+    // addIdAndClassToH3H4H5();
     addImgFluid();
 
-    const routes = [ "ablauf", "fachbegriffe", "mentoren", "links" ];
+    const routes = [
+        // "ablauf",
+        // "fachbegriffe",
+        // "mentoren",
+        // "links",
+    ];
 
     if (routes.some(route => window.location.href.indexOf(route) > -1)) {
         tocInit();

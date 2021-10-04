@@ -28,13 +28,13 @@ arbeiten, desto leichter wird es später, das neue Programm zu entwickeln!
 #### Erstellung von Prototypen
 
 Es ist gar nicht so leicht, im Team über ein Projekt zu diskutieren, wenn man
-noch gar nichts sehen kann! Deswegen verwenden Software-Entwickler Prototypen,
+noch gar nichts sehen kann! Deswegen verwenden Software-Entwickler:innen Prototypen,
 um in den frühen Entwicklungsphasen ein Bild davon zu bekommen, wie die
 Software aussehen wird. Darüber kann man dann schön sprechen und von den
 verschiedenen Stakeholdern Feedback einholen.
 
 Zuerst zeichnet man ganz grob, wie das Programm aussehen soll. Ganz ähnlich wie
-ein Maler zuerst eine Skizze macht!
+ein Maler zuerst eine Skizze macht.
 
 Später, wenn man schon eine ganz gute Vorstellung hat, nutzt man spezialisierte
 Computerprogramme, um "Fakes" von der Benutzeroberfläche zu designen. Da kann

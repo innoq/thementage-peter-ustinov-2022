@@ -1,7 +1,7 @@
 ### Fachbegriffe
 
-Diese Begriffe werden im Lauf des Tages eine Rolle spielen. Wenn ihr einmal nicht mehr genau
-wisst, was gemeint ist, könnt ihr einfach hier nachschauen. :)
+Die folgenden Begriffe werden im Lauf des Tages eine Rolle spielen. Wenn ihr einmal nicht mehr genau
+wisst, was gemeint ist, könnt ihr einfach hier nachschauen.
 
 #### Stakeholder
 
@@ -11,27 +11,36 @@ interessiert, beteiligt, oder davon betroffen sind.
 Wie finde ich Stakeholder?
 
 - Wer hat Interesse an dem Projekt?
-- Welche Kunden habe ich?
+- Welche Kund:innen habe ich?
 - Wer benutzt mein Produkt?
-- Welche Mitarbeiter verwenden das Produkt?
+- Welche Mitarbeiter:innen verwenden das Produkt?
 
 #### Anforderung
 
 Anforderungen lassen sich grob in zwei Gruppen einteilen:
 
-1. Die **Funktionen**, die ein Kunde oder Benutzer benötigt, um mit dem Produkt ein Problem zu lösen
+1. Die **Funktionen**, die Nutzer:innen benötigen, um mit dem Produkt ein Problem zu lösen
    oder ein Ziel zu erreichen.
 2. **Einschränkungen**, die von Stakeholdern auferlegt werden: Z.B. Zeit, Budget, ...
 
 Wie finde ich Anforderungen?
 
-- In die einzelnen Stakeholder hineinversetzen
-    - Warum verwende ich das Produkt
-    - Was möchte ich erreichen
-    - Macht es mein Leben einfacher
+- In die einzelnen Stakeholder hineinversetzen:
+    - Warum verwende ich das Produkt?
+    - Was möchte ich erreichen?
+    - Macht es mein Leben einfacher, und wenn ja, wie?
 - Was soll das Produkt anbieten? Wofür ist es da?
-- Was ist das Ziel hinter dem Produkt?
+- Was ist das Ziel hinter dem Produkt aus der Perspektive
+    - der Kund:innen/Benutzer:innen?
+    - der Investor:innen?
+
+Konkretere Fragen könnten dann zum Beispiel sein:
+
 - Funktioniert das Produkt nur auf dem Handy oder auch auf einem Computer, einer Smartwatch, einem Kühlschrank,...?
+- Welche funktionalen und visuellen Bedingungen muss die Benutzeroberfläche erfüllen?
+- Welche Anforderungen gibt es in Bezug auf Sicherheit (z.B. Banking App)
+- Gibt es gesetzliche Vorgaben? (z.B. Datenschutz)
+- Kommuniziert das Produkt mit anderen Produkten/Diensten im Web? (Schnittstellen/API)
 
 
 #### Prototyp
@@ -51,5 +60,5 @@ vorherigen Schritt gesammelt wurden, im Produkt umgesetzt werden.
 Eine Simulation der Benutzeroberfläche, die mit speziellen Computerprogrammen erstellt wird. Oft
 kann man z.B. mit Buttons oder Navigationselementen interagieren, und sich "durch die Anwendung
 klicken". So bekommen Stakeholder einen guten Eindruck davon, wie das Endprodukt aussehen wird,
-und die Entwickler können sich an einem aussagekräftigen Modell der Benutzeroberfläche
+und die Entwickler:innen können sich an einem aussagekräftigen Modell der Benutzeroberfläche
 orientieren.

@@ -1,5 +1,14 @@
 ### Zum Weitermachen
 
+#### Weiterführende Informationen
+*   [INNOQ: Fachartikel zum Thema Requirements Engineering](https://www.innoq.com/de/articles/2016/10/requirements-engineering/)
+*   [Wikipedia: Prototyping (Softwareentwicklung)](https://de.wikipedia.org/wiki/Prototyping_(Softwareentwicklung))
+*   [Wikipedia: Stakeholder](https://de.wikipedia.org/wiki/Stakeholder#Stakeholder_in_der_Systementwicklung)
+
+#### Software zur Entwicklung von Prototypen
+*   [Figma](https://www.figma.com/)
+*   [penpot](https://penpot.app/)
+
 #### Veranstaltungen
 
 Es gibt verschiedene Veranstaltungen, bei denen Du noch tiefer in die Welt der Programmierung einsteigen kannst.
@@ -29,3 +38,4 @@ Mehr Infos findest Du hier:
 *   [Try ruby](https://ruby.github.io/TryRuby/)
 *   [Hello Ruby](http://www.helloruby.com/)
 *   [Codecademy](http://www.codeacademy.com)
+*   [freeCodeCamp](https://www.freecodecamp.org/)
