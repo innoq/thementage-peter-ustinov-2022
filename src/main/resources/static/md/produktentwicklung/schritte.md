@@ -3,7 +3,7 @@
 #### Idee
 
 Jedes Produkt beginnt mit einer guten Idee. Die Möglichkeiten mit modernen
-Computern sind quasi unbegrenzt. Bestimmt habt Ihr auch ein paar tolle Ideen
+Computern sind quasi unbegrenzt. Bestimmt habt Ihr auch ein paar gute Ideen
 für neue Produkte!
 
 #### Identifizierung der Stakeholder

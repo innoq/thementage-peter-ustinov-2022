@@ -1,4 +1,4 @@
-![tpu-logo](img/tpu_logo.png)
+<img id="tpu-logo" src="/img/tpu_logo.png" class="pb-5" style="width: 100%"/>
 
 ### Willkommen!
 
@@ -6,20 +6,16 @@ Wir freuen uns sehr, dass Du dabei bist! Heute wollen wir Dir Softwareentwicklun
 
 ### Tagesprogramm - Ablauf
 
-`10:00 - 10:15 Uhr` Einführung
-
-`10:15 - 10:25 Uhr` Sammeln von Ideen
-
-`10:25 – 10:30 Uhr` Gruppenbildung
-
-`10:30 – 11:00 Uhr` Auswahl der Kernzielgruppe
-
-`11:00 – 12:00 Uhr` Sammeln von Anforderungen
-
-`12:00 – 13:00 Uhr` **Mittagessen!** (+ Fragen)
-
-`13:00 – 13:30 Uhr` Erstellen von Papierprototypen
-
-`13:30 – 14:30 Uhr` Erstellen von Click-Dummies
-
-`14:30 – 15:00 Uhr` Vorstellung der Ergebnisse
+| Uhrzeit | Programmpunkt                                                 |
+|---------|---------------------------------------------------------------|
+| 10:00   | Einführung, Begrüßung, Vorstellung                            |
+| 10:25   | Themenfindung                                                 |
+| 11:00   | Pause                                                         |
+| 11:10   | Grundlagen der Produktentwicklung: Stakeholder, Anforderungen |
+| 11:50   | Pause                                                         |
+| 12:00   | Papierprototypen                                              |
+| 13:00   | Mittagessen                                                   |
+| 14:00   | Fragerunde                                                    |
+| 14:30   | Advanced: Click-Dummies oder Programmieren mit Node.js        |
+| 16:00   | Schlussrunde                                                  |
+| 16:30   | Ende                                                          |
