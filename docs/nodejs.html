@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+<html lang="de">
+<head>
+    <title>Thementage@INNOQ</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img id="brand-img" src="img/innoq-logo--whitered-9684828805a4a94e467950840bec3884.svg" width="100" alt="INNOQ Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Thementage@INNOQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="produktentwicklung.html">Produktentwicklung</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="fachbegriffe.html">Fachbegriffe</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="nodejs.html">Node.js</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="links.html">Nützliche Links</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mentoren.html">Mentor:innen</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div class="container m-5 pb-5">
+    <main>
+        <div id="content"><p><em>Direkt zum Glossar:</em>
+<a href="nodejs.html#bootstrap">Bootstrap</a> •
+<a href="nodejs.html#css">CSS</a> •
+<a href="nodejs.html#client-und-server">Client</a> •
+<a href="nodejs.html#express">Express</a> •
+<a href="nodejs.html#request-und-response">GET</a> •
+<a href="nodejs.html#html">HTML</a> •
+<a href="nodejs.html#npm">npm</a> •
+<a href="nodejs.html#request-und-response">POST</a> •
+<a href="nodejs.html#pug">Pug</a> •
+<a href="nodejs.html#request-und-response">Redirect</a> •
+<a href="nodejs.html#request-und-response">Request</a> •
+<a href="nodejs.html#request-und-response">Response</a> •
+<a href="nodejs.html#client-und-server">Server</a> •
+<a href="nodejs.html#pug">Template Engine</a></p>
+<h3 id="nodejs">Node.js</h3>
+<p><em>Node.js ist eine plattformübergreifende Open-Source-JavaScript-Laufzeitumgebung, die JavaScript-Code außerhalb eines
+Webbrowsers ausführen kann. Damit kann zum Beispiel ein Webserver betrieben werden. Node.js wird in der
+JavaScript-Laufzeitumgebung V8 ausgeführt, die ursprünglich für Google Chrome entwickelt wurde, und bietet eine
+ressourcensparende Architektur, die eine besonders große Anzahl gleichzeitig bestehender Netzwerkverbindungen
+ermöglicht. (Quelle: <a href="https://de.wikipedia.org/wiki/Node.js">Wikipedia</a>).</em></p>
+<p>Ok, was bedeutet das?</p>
+<p><strong>JavaScript</strong> ist eine Programmiersprache, die ursprünglich nur dazu gedacht war, Webseiten dynamisch zu gestalten. Das
+bedeutet, dass JavaScript anfangs nur in <strong>Webbrowsern</strong> funktionierte. Alle modernen Browser haben eine sogenannte
+<strong>JavaScript-Laufzeitumgebung</strong> eingebaut, d.h. wenn eine Webseite eine JavaScript-Datei lädt, kann der Browser das
+Programm verstehen und ausführen.</p>
+<p>Weil sich in den letzten 20 Jahren das Internet wahnsinnig entwickelt hat und immer mehr zu einer der wichtigsten
+Plattformen für Kommunikation und Handel geworden ist, ist auch JavaScript immer beliebter geworden. Die Sprache hat
+sich seit ihren Anfängen als reine Skriptsprache bedeutend weiterentwickelt. Heute kann man, mit gewissen Abstrichen,
+ganze Programme in JavaScript schreiben, die überall ausgeführt werden können, wo es eine Laufzeitumgebung für
+JavaScript gibt. <strong>Node.js</strong> ist die wichtigste dieser Laufzeitumgebungen und unterstützt vor allem Programme, die sehr
+viel über <strong>Netzwerke</strong> kommunizieren. Ideal für Webserver! Wenn ihr also selbst mal ein bisschen experimentieren wollt,
+und eine Idee für eine kleine Webanwendung habt, dann ist Node.js die ideale Plattform dafür. Im technischen Teil des
+Tages, heute Nachmittag, werden wir das mal ausprobieren.</p>
+<h4 id="glossar">Glossar</h4>
+<h5 id="html">HTML</h5>
+<p>HTML (Hypertext Markup Language) ist eine Markup-Sprache.
+Webseiten werden in HTML ausgeliefert. Webbrowser verstehen HTML und können es sinnvoll darstellen.
+In a nutshell: Die Zeichenkette <code>&quot;Ich möchte unbedingt programmieren lernen.&quot;</code> kann durch HTML
+mit semantischer Bedeutung angereichert werden: <code>&lt;p&gt;Ich möchte &lt;em&gt;unbedingt&lt;/em&gt; programmieren lernen.&lt;/p&gt;</code>.
+Hierbei umschließen die <code>&lt;p&gt;</code>-Tags einen Absatz (englisch <em>paragraph</em>, man spricht dann von einem Paragraph-Element),
+und die <code>&lt;em&gt;</code>-Tags zeigen, dass das Wort &quot;unbedingt&quot; hervorgehoben werden soll
+(englisch <em>emphasize</em> bedeutet &quot;betonen&quot;).
+Es gibt entsetzlich viele verschieden HTML-Elemente und dazugehörige Tags...
+Man muss sie nicht alle kennen. Die wichtigsten werdet ihr wahrscheinlich heute zu Gesicht bekommen.
+(<a href="https://de.wikipedia.org/wiki/Hypertext_Markup_Language">Wikipedia</a> •
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML?retiredLocale=de">mdn</a>)</p>
+<h5 id="css">CSS</h5>
+<p>CSS (Cascading Style Sheet) ist neben JavaScript und HTML die dritte wichtige Sprache im Internet.
+CSS wird benutzt, um das Aussehen von HTML-Elementen zu steuern.
+(<a href="https://de.wikipedia.org/wiki/Cascading_Style_Sheets">Wikipedia</a> •
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS?retiredLocale=de">mdn</a>)</p>
+<h5 id="client-und-server">Client und Server</h5>
+<p><strong>Server</strong> bezeichnet zugleich ein Programm, das auf Anfrage Webseiten ausliefert,
+und den Computer (die Hardware), auf dem dieses Programm läuft.
+Wenn wir heute von Server sprechen, meinen wir das Programm, also unsere Node.js-App, die unseren Web-Shop steuert.
+Analog dazu ist der <strong>Client</strong> ein Programm, das mit einem Server kommuniziert.
+In unserem Fall sind das Webbrowser wie Firefox, Chrome, Edge und Safari.
+(<a href="https://de.wikipedia.org/wiki/Client-Server-Modell">Wikipedia</a>)</p>
+<h5 id="request-und-response">Request und Response</h5>
+<p>Ein Client (Webbrowser) kommuniziert mit dem Server über <strong>Requests</strong>:
+Er sendet Anforderungen an den Server, die dieser mit einer <strong>Response</strong> (Antwort) beantwortet.
+In den allermeisten Fällen spricht man von sogenannten HTTP-Requests.
+<strong>HTTP</strong> steht für Hypertext Transfer Protocol.
+Das ist eine Vereinbarung, die genau regelt, wie Requests und Responses auszusehen haben,
+damit beliebige Programme miteinander kommunizieren können und sich verstehen.
+Für uns sind zwei Arten von HTTP-Requests interessant:</p>
+<ul>
+<li><code>GET</code>: Der Client fordert eine Resource an, z.B. eine Webseite oder eine Bilddatei.</li>
+<li><code>POST</code>: Der Client sendet Daten an den Server, die dort eine Veränderung auslösen.</li>
+</ul>
+<p>In beiden Fällen wird der Server mit einer Response antworten.
+Diese kann entweder eine Resource enthalten, oder den Client dazu auffordern, eine andere Seite aufzurufen.
+Das ist dann ein sogenannter <strong>Redirect</strong>.
+(<a href="https://de.wikipedia.org/wiki/Hypertext_Transfer_Protocol">Wikipedia</a> •
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP?retiredLocale=de">mdn</a>)</p>
+<h5 id="express">Express</h5>
+<p><a href="https://expressjs.com">Express.js</a> ist eine Node.js-Bibliothek, die es ganz einfach macht, Webserver zu schreiben.
+Tatsächlich ist Express so einfach und beliebt, und so weit verbreitet, dass es eine Art De-Facto-Standard geworden ist.
+Ihr müsst nicht Express verwenden, aber es ist auf jeden Fall ein guter Ausgangspunkt.</p>
+<h5 id="bootstrap">Bootstrap</h5>
+<p><a href="https://getbootstrap.com">Bootstrap</a> ist eine CSS-Bibliothek, die es ganz leicht macht,
+das Aussehen einer Webseite einheitlich zu gestalten.
+Bootstrap definiert zahlreiche CSS-Klassen,
+mit denen das Aussehen und die Anordnung von HTML-Elementen gesteuert werden kann.
+Es geht auch ohne... aber auch hier gilt: Mit Bootstrap macht man erstmal nichts verkehrt.
+Insbesondere, wenn man
+nicht viel Zeit hat.</p>
+<h5 id="pug">Pug</h5>
+<p>HTML ist sehr nützlich, aber auch sehr unangenehm zu schreiben.
+Insbesondere, wenn Webseiten dynamisch mit unterschiedlichen Inhalten gerendert werden,
+können Programmierer unmöglich jede mögliche Ausprägung in HTML ausschreiben.
+Zu diesem Zweck gibt es <strong>Template-Sprachen</strong>. Das sind sozusagen Vorstufen von HTML.
+In einem Template-Dokument ist die Struktur der HTML-Seite festgelegt.
+Bestimmte Teile des Dokuments können vom Server dynamisch mit Inhalt gefüllt werden.
+Template-Sprachen sind oft sehr ähnlich wie HTML, manche sind sogar valides HTML mit einigen Erweiterungen.
+Wir benutzen <a href="https://pugjs.org">Pug</a>, eine sehr einfache, übersichtliche Template-Sprache.</p>
+<h5 id="npm">npm</h5>
+<p><code>npm</code> steht für Node Package Manager.
+Es bezeichnet sowohl ein Programm, das auf deinem lokalen Rechner JavaScript-Pakete für Node.js verwaltet,
+als auch die <a href="https://npmjs.com">npm Package Registry im Internet</a>, wo sehr, sehr viele Node.js-Bibliotheken
+zur Verfügung gestellt werden.
+Express und Pug sind beispielsweise solche Bibliotheken, die wir in unsere Anwendung einbinden.</p>
+</div>
+    </main>
+</div>
+
+<footer class="p-3 fixed-bottom bg-dark text-white">
+    &copy; 2022 <a href='https://www.innoq.com'>INNOQ</a>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
