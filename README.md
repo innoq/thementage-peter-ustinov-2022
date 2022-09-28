@@ -1,6 +1,7 @@
-# Thementage 2021 Monheim Handbuch
+# Thementage 2022 Monheim Handbuch
 
-Dieses Repo beinhaltet das Hanbuch für die Thementage 2021 in Monheim. An sich ist das Repo eine Kopie des Repositories für 2019, welches zur veröffentlichung über Github Pages angelegt und angepasst wurde.
+Dieses Repo beinhaltet das Hanbuch für den Thementag der Peter-Ustinov-Gesamtschule in Monheim am 30. September 2022.
+An sich ist das Repo eine Kopie des Repositories für 2019, welches zur Veröffentlichung über Github Pages angelegt und angepasst wurde.
 
 
 ## Anleitung
@@ -21,9 +22,9 @@ Bilder können in [`./src/main/resources/static/img/`](./src/main/resources/stat
    das Inhaltsverzeichnis im Client automatisch generiert wird.
 
 ### Rendern
-Die Markdown Dateien werden auf die Seite, die wie der Ordner, in die man die Datei gelegt hat heißt, gerendert. Dabei werden mehrere Dateien alphabetisch hintereinander gehangen. 
+Die Markdown Dateien werden auf die Seite, die wie der Ordner, in die man die Datei gelegt hat, heißt, gerendert. Dabei werden mehrere Dateien alphabetisch hintereinander gehangen. 
 
-**Achtung!** Überschrichten tauchen nur in den Inhaltsverzeichnissen auf, wenn sie h3 (### Überschrift) oder h4 (#### Überschrift) sind.
+**Achtung!** Überschriften tauchen nur in den Inhaltsverzeichnissen auf, wenn sie h3 (### Überschrift) oder h4 (#### Überschrift) sind.
 
 
 ### Static Page
