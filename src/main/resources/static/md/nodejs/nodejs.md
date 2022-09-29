@@ -86,12 +86,12 @@ Das ist dann ein sogenannter **Redirect**.
 [mdn](https://developer.mozilla.org/en-US/docs/Web/HTTP?retiredLocale=de))
 
 ##### Express
-[Express.js](https://expressjs.com) ist eine Node.js-Bibliothek, die es ganz einfach macht, Webserver zu schreiben.
+[Express.js](https://expressjs.com) ist eine Node.js-Bibliothek, mit der man Webserver schreiben kann.
 Tatsächlich ist Express so einfach und beliebt, und so weit verbreitet, dass es eine Art De-Facto-Standard geworden ist.
 Ihr müsst nicht Express verwenden, aber es ist auf jeden Fall ein guter Ausgangspunkt. 
 
 ##### Bootstrap
-[Bootstrap](https://getbootstrap.com) ist eine CSS-Bibliothek, die es ganz leicht macht,
+[Bootstrap](https://getbootstrap.com) ist eine CSS-Bibliothek, die es erleichtert,
 das Aussehen einer Webseite einheitlich zu gestalten.
 Bootstrap definiert zahlreiche CSS-Klassen,
 mit denen das Aussehen und die Anordnung von HTML-Elementen gesteuert werden kann.
